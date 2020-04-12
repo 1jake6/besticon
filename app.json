@@ -18,7 +18,7 @@
 			"value": "720h"
 		},
 		"SERVER_MODE": {
-			"value": "redirect"
+			"value": "proxy"
 		},
 		"POPULAR_SITES": {
 			"value": "github.com"
