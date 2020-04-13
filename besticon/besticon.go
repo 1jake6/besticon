@@ -38,7 +38,7 @@ import (
 var defaultFormats []string
 
 const MinIconSize = 0
-const MaxIconSize = 500
+const MaxIconSize = 1500
 
 // Icon holds icon information.
 type Icon struct {
@@ -284,6 +284,8 @@ var csspaths = strings.Join([]string{
 	"link[rel='shortcut icon']",
 	"link[rel='apple-touch-icon']",
 	"link[rel='apple-touch-icon-precomposed']",
+	"link[rel='Shortcut Icon']",
+	
 
 	// Capitalized variants, TODO: refactor
 	"link[rel='ICON']",
